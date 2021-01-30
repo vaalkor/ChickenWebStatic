@@ -1,0 +1,258 @@
+*{
+    padding:0;
+    margin:0;
+    font-family: "Verdana", sans-serif;
+    color: chocolate;
+}
+html{
+    font-size:100%;
+}
+
+p{
+    font-size:1.5rem;
+}
+h1{
+    font-size:2.0rem;
+}
+
+#map {
+        height: 400px;
+        width: 100%;
+}
+
+body{
+    min-height:950px;
+    width:100%;
+    background: url("../images/Suspension_Bridge.png") no-repeat, 
+                url("../images/chicken_tileable.png") repeat-y;
+    background-position: center top;
+    background-size:100%;
+    
+}
+
+
+
+.banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align:center;
+    background-color: #0c5765;
+}
+
+
+#nav{
+    height:70px;
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    text-align:center;
+    background-color: #233237;
+    overflow: hidden;
+    display: none;
+}
+#nav img{
+    float: left;
+    padding: 12.25px 0px 0px 15px;
+    height:65%;
+}
+
+#nav2{
+    min-height:40px;
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    text-align:center;
+    background-color: #233237;
+    overflow: hidden;
+}
+#nav2 li{
+    float: left;
+}
+#nav2 li a{
+    display: block;
+    padding:14px 16px;
+    margin:10px;
+    text-decoration:  none;
+    color: white;
+}
+#nav2 li a:hover{
+    background-color: #111;
+}
+
+.colored{
+    background-color:rgba(244,228,186,0.9);
+}
+
+#map_info{
+    padding:15px 15px 15px 15px;
+}
+
+#main_content{
+    padding:25px;
+}
+
+
+#main_content canvas{
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.aligned_img{
+    width:60%;
+    margin-left:20%;
+    margin-left:20%;
+    padding-top:20px;
+}
+
+.clear{
+    float: clear;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.chicken_shop_box{
+    background-color: blanchedalmond;
+    width: 45%;
+    margin:5px;
+    padding:5px;
+    flex-direction: row;
+}
+.chicken_shop_box hr{
+    margin:5px;
+}
+
+#bottom_bar{
+    height: 40px;
+    width: 100%;
+    margin-top: 10px;
+}
+.text_padding{
+    padding:20px;
+}
+
+.spacer{
+    height:20px;
+    width:100%;
+}
+
+.content{
+    padding-top:40px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#banner_svg{
+    width:100%;
+}
+
+#bottom_bar p{
+    padding-left:6px;
+    padding-top:4px;
+    font-size:0.8rem;
+
+}
+#footer_icons_wrapper{
+    display:block;
+    height:70%;
+    width:100%;
+    padding-top: 6px;
+    display:flex;
+    flex-direction: row;
+
+}
+.footer_icon{
+    padding-left:6px;
+    height:100%;
+
+}
+
+.chicken_shop_box .top_section{
+    overflow: hidden;
+}
+.chicken_shop_box .top_section h1{
+    display:inline-block;
+    float: left;
+    width:70%;
+}
+.chicken_shop_box .top_section hr{
+    margin:20px;
+    float: clear;
+    display:block;
+}
+
+.chicken_shop_box .top_section .stars .star{
+    padding:0px 0px 0px 0px;
+    margin:0px 0px 0px 0px;
+    width:12%;
+}
+
+.chicken_shop_box .top_section .stars{
+        display: inline-block;
+        float: right;
+        width:30%;
+        height:100%;
+}
+
+.stars{
+    width:40%;
+}
+ .stars .star{
+    width:15%;    
+}
+
+#review_form #stars{
+    width:35%;
+}
+#review_form #stars .star{
+    width:15%;    
+}
+
+@media only screen and (min-width: 940px) {
+    .content{
+        width:940px;
+    }
+}
+@media only screen and (max-width: 940px) {
+    .content{
+        width:98%;
+    }
+    #nav li{
+        color:black;
+    }
+
+    .aligned_img{
+        width: 90%;
+        margin-left:5%;
+        margin-right:5%;
+    }
+}
+@media only screen and (max-width: 700px) {
+    #nav{
+        display: block;
+    }
+    #nav2{
+        display: none;
+        text-align: left;
+    }
+    #nav2 li{
+        float: none;
+    }
+}
+@media only screen and (min-width: 700px) {
+    #nav2{
+        display:block !important;
+        height:70px !important;
+    }
+    #nav2 li{
+        float: left !important;
+    }
+}
+
+

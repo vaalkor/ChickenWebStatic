@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-GB" xml:lang="en-GB">
+<head>
+    <title> Bristol Fried Chicken</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.js" type="text/javascript"></script>
+    <script type="text/javascript" src = "js/chicken_utilities.js"></script>
+    <script type="text/javascript" src = "js/shop_page.js"></script>
+    <script async="async" defer="defer" type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA8_IPqsvXy5hSrNNPa1KaNYH4y3h0__6U&amp;callback=initMap"></script>
+    <script type="text/javascript" src = "js/nav.js"></script>
+</head>
+<body>
+
+            <div class="content">
+            
+                <div id="banner">
+                    <object type="image/svg+xml" id="banner_svg" data="images/fried_chicken_svg_test.svg">
+                    	Your browser does not support SVG mate...
+                    </object>
+                </div>
+
+                <div id="nav">
+                    <img src="images/menu.svg" alt="Menu"/>
+                </div>
+                <ul id="nav2">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="chicken_map.html">Chicken Finder</a></li>
+                    <li><a href="chicken_shops.html">Shop List</a></li>
+                    <li><a href="games.html">Game</a></li>
+                    <li><a href="about_us.html">About</a></li>
+                </ul>
+
+                <div id="main_content" class="colored">
+                	
+                    <h1 id="shop_name">Shop Name</h1>
+                    <hr />
+                    <h3 id="shop_address">Shop Address</h3>
+                    <br/>
+
+
+                    <div id="map"></div>
+
+                    <hr />
+
+                    <h2>Reviews</h2>
+                    <div id="shop_reviews" class="flex"></div>
+
+                    <h2>Submit a review</h2>
+                
+                    <form id="review_form" >
+                      	Name:
+                      <br/>
+                      <input type="text" id="reviewer_name"/>
+                      <br/>
+                        Rating:
+                      <br/>
+                      <div id="stars">
+                            <img class="star" src="images/star.svg" alt="1"/>
+                            <img class="star" src="images/star.svg" alt="2"/>
+                            <img class="star" src="images/star.svg" alt="3"/>
+                            <img class="star" src="images/star.svg" alt="4"/>
+                            <img class="star" src="images/star.svg" alt="5"/>
+                        </div>
+                      
+                      	Review:
+                      <br/>
+                      <textarea id="review_text" cols="45" rows="7"></textarea>
+                      <br/>
+                      <button id="submit_button" type="button">Submit Review!</button>
+                    </form> 
+
+                </div>
+
+                <div id="bottom_bar" class="colored">
+                    
+                    <div id="footer_icons_wrapper">
+                        <object type="image/svg+xml" class="footer_icon" data="images/facebook_logo.svg">
+                            Your browser does not support SVG mate...
+                        </object>
+                        <object type="image/svg+xml" class="footer_icon" data="images/twitter_logo.svg">
+                            Your browser does not support SVG mate...
+                        </object>
+                        <object type="image/svg+xml" class="footer_icon" data="images/instagram_logo.svg">
+                            Your browser does not support SVG mate...
+                        </object> 
+                        <p> &copy; Bristol Fried Chicken Ltd 2017 </P>
+                    </div>
+                    
+                </div>
+
+                <div class="spacer"></div>
+            
+            
+            
+            
+            </div>
+
+</body>
+
+</html>
