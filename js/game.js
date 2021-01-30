@@ -17,24 +17,24 @@ document.getElementById('game').appendChild(canvas);
 
 //LOADING IMAGES------------------//
 var startscreen = new Image();
-startscreen.src = "../images/startscreen.png";
+startscreen.src = "images/startscreen.png";
 var backgroundImage = new Image();
-backgroundImage.src = "../images/background.png";
+backgroundImage.src = "images/background.png";
 var foregroundImage = new Image();
-foregroundImage.src = "../images/foreground.png";
+foregroundImage.src = "images/foreground.png";
 var chickenProjectileImage = new Image();
-chickenProjectileImage.src = "../images/chicken_projectile.png";
+chickenProjectileImage.src = "images/chicken_projectile.png";
 var heroImage = new Image();
-heroImage.src = "../images/rob.png";
+heroImage.src = "images/rob.png";
 var monsterImage = new Image();
-monsterImage.src = "../images/chicken.png";
+monsterImage.src = "images/chicken.png";
 var gameOverImage = new Image();
-gameOverImage.src = "../images/gameover.png";
+gameOverImage.src = "images/gameover.png";
 //---------------------------------//
 //Declaring global variables-------//
 
-var gameMusic = new Audio("../sounds/gamemusic.mp3");
-var deathMusic = new Audio("../sounds/sadviolin.mp3");
+var gameMusic = new Audio("sounds/gamemusic.mp3");
+var deathMusic = new Audio("sounds/sadviolin.mp3");
 
 var deltaTime;
 
